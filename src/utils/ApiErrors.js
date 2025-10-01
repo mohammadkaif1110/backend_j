@@ -4,6 +4,6 @@ class ApiErrors extend Erorr {
         this.statusCode = statusCode
         this.message = message
         this.success = false
-        this.error = this.error
+        this.error = error
     }
 };
